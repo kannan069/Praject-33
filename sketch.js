@@ -147,18 +147,18 @@ async function points(){
       
      
       if(particle.body.position.x >601 && particle.body.position.x < 900){
-        score += 200 *(50*Math.round(random(0,5)));
+        score += 200 
         particle = null;
         // console.log('manja200')
       }
       if(particle.body.position.x <300){
-        score += 500*(50*Math.round(random(0,5)));
+        score += 500
         particle = null;
         // console.log('manja500')
       }
       
       if(particle.body.position.x > 301 && particle.body.position.x < 600){
-         score += 100*(50*Math.round(random(0,5)));
+         score += 100
          particle = null;
          //console.log('manja100')
       }
